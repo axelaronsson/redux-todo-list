@@ -1,0 +1,81 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	padding: 0;
+	margin: 0;
+	border: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.hide {
+  display: none;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.todo-container__button {
+  padding: 5px 10px;
+  border: 0px;
+  float: right;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+.todo-container__button--danger {
+  background-color: orange;
+}
+.todo-container__button--card {
+  background-color: white;
+  color: black;
+  float: left;
+  margin: 2px;
+}
+.todo-form {
+  height: 180px;
+  width: 100vw;
+  max-width: 500px;
+  margin-bottom: 10px;
+  padding: 30px 10px;
+  background-color: pink;
+  border-radius: 10px;
+}
+.todo-form__input {
+  display: block;
+  width: 98%;
+  margin: auto;
+}
+.todo-list__card {
+  min-height: 110px;
+  width: 100vw;
+  max-width: 500px;
+  margin: 10px 0px;
+  padding: 10px 10px 40px 10px;
+  list-style-type: none;
+  background-color: rgb(120, 240, 228);
+  border-radius: 10px;
+}
+.todo-list__card--done {
+  color: rgba(0, 0, 0, 0.473);
+  text-decoration: line-through;
+  background-color: #E8E8E8 !important;
+}
+.todo-list__text {
+  margin: 10px 0px;
+  /* pointer-events: none; */
+}
+.todo-list__text textarea:focus {
+  outline: 0px;
+}
+.text-field {
+  width: 70%;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  font-size: inherit;
+  font-weight: inherit;
+}
